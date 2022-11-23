@@ -1,0 +1,33 @@
+body {
+  background-color: #6495ed;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 4rem;
+}
+.wrapper {
+  text-align: center;
+}
+
+button {
+  padding: 1.5rem 5rem;
+  background-color: #6495ed;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
